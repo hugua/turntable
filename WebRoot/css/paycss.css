@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(242,242,242);
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+*{
+	font-family:宋体;
+}
+
+#shop-name{
+	background-color:rgb(64,63,68);
+	font-size:60px;
+	color: white;
+	line-height: 140px;
+	text-align:center;
+}
+.title{
+	background-color:rgb(51,171,223);
+	font-size:53px;
+	color: white;
+	line-height: 120px;
+	text-align:center;
+}
+
+.content-title{
+	font-size:50px;
+	color: rgb(42,172,226);;
+	margin-left:5%;
+}
+.content-seesion{
+	 background-color: #ffffff;
+	 padding-left: 3%;
+	 padding-top: 20px;
+	 padding-bottom: 30px;
+	 margin-left: 5%;
+	 margin-right: 5%;
+	 padding-bottom: 10px;
+}
+
+.content-key,.content-value{
+	font-size:40px;
+	display: inline-block;
+}
+.content-value{
+	float: right;
+	margin-right: 3%;
+}
+
+.submit-button{
+	text-align:center;
+	font-size:50px;
+	width:70%;
+	height: 90px;
+	margin:0 15%;
+	color: white;
+	background-color: rgb(51,171,223);
+	cursor: pointer;
+}
+
+
+
+label.radio {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  margin: 40px 5px 5px 0;
+  padding: 0;
+  background-color: #cfcfcf;
+  border-radius: 100%;
+  vertical-align: top;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1) inset, 0 1px 4px rgba(0, 0, 0, 0.1) inset, 1px -1px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+label.radio > span.pip {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  border-radius: 100%;
+  background: blue;
+  top: 4px;
+  left: 4px;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(255, 255, 255, 0.4) inset;
+background-image: linear-gradient(#ffffff 0, #e7e7e7 100%);
+  transform: scale(0, 0);
+  transition: all 0.2s ease;
+}
+label.radio.on {
+  background-color: #05abe0;
+}
+label.radio.on > span.pip {
+  transform: scale(1, 1);
+}
+label.radio.focus {
+  outline: 0;
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1) inset, 0 1px 4px rgba(0, 0, 0, 0.1) inset, 1px -1px 2px rgba(0, 0, 0, 0.1), 0 0 8px #52a8ec, 0 0 1px 1px rgba(0, 0, 0, 0.75) inset;
+}
+input[type=radio].replaced {
+  position: absolute;
+  left: -9999em;
+}
+
+
+
+#success{
+	width:100%;
+	height: 100%;
+	margin:0;
+	color: white;
+}
+
+.final-bill{
+	margin: 80px 0px 60px 0px;
+	text-align: center;
+}
+
+.provider{
+	font-size: 56px;
+	
+}
+
+.final-payment{
+	font-size: 120px;
+	text-align: center;
+}
+
+
+

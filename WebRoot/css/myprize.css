@@ -1,0 +1,102 @@
+body{
+	background:#898989;
+}
+.prize-detail-body{
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+.page-title{
+	height:45px;
+	background:#f26f7e;
+}
+
+.prize{
+	margin-top:10px;
+	height:80px;
+	width:320px;
+	background:url(../image/0.png) no-repeat;
+	Background-size: 320px 130px;
+}
+.prize2{
+	margin-top:10px;
+	height:80px;
+	width:320px;
+	background:url(../image/1.png) no-repeat;
+	Background-size: 320px 130px;
+}
+
+.prize-text{
+	width:64%;
+	height:100%;
+	float:left;
+}
+
+.prize-peice{
+	width:36%;
+	height:100%;
+	float:left;
+	
+}
+.p-name{
+	margin-top:10%;
+	font-size:20px;
+	vertical-align:middle;
+	text-align:center;
+}
+.p-date{
+	margin-top:10%;
+	font-size:8px;
+	vertical-align:bottom;
+	text-align:right;
+}
+.p-price{
+	margin-top:30%;
+	vertical-align:middle;
+	text-align:center;
+	font-size:30px;
+	color:white;
+}
+
+.p-name2{
+	margin-top:10%;
+	font-size:20px;
+	color:red;
+	vertical-align:middle;
+	text-align:center;
+}
+.p-date2{
+	margin-top:10%;
+	font-size:8px;
+		color:red;
+	vertical-align:bottom;
+	text-align:right;
+}
+
+.title{
+	margin-top:10px;
+	color:white;
+	text-align:center;
+	font-size:20px;
+	width:95%;
+	height:20px;
+	line-height:20px; 
+	text-align:center;
+ 	float:left;
+}
+.exit{
+	margin-top:10px;
+	width:5%;
+	color:white;
+	text-align:left;
+	font-size:20px;
+	float:left;
+}
+
+.no-prize{
+	margin-top:20%;
+	height:70%;
+	text-align:center;
+	color:#ff7585;
+	font-size:26px;
+}
